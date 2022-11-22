@@ -22,6 +22,7 @@ export default [
       {value:5, label: '5: Glacial'},
       {value:6, label: '6: Beaches'},
       {value:7, label: '7: Volcanic'},
+      {value:8, label: '8: Urban'},
     ]
   },
   {
