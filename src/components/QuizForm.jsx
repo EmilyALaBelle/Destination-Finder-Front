@@ -9,9 +9,9 @@ const onChange = (e) => {
 }
 
 export default function QuizForm() {
-  // const { destinationId } = useParams()
+
   const [loading, setLoading] = useState(false)
-  //const navigate = useNavigate()
+
 
   const handleQuizSubmit = (values) => {
     setLoading(true)
@@ -51,7 +51,7 @@ export default function QuizForm() {
         </div>
       </Layout.Content>
       <Link to={"/results"}>
-        <Button type="primary" htmlType="submit" loading={loading}>
+        <Button type="primary" htmlType="submit" loading={loading} >
           Submit Vote
         </Button>
       </Link>

@@ -9,6 +9,7 @@ import Home from './components/Home';
 import DestinationList from './components/DestinationList'
 import Results from './components/Results';
 import Profile from './components/Profile';
+import Card from './components/Card';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path='/favorites' element={<Favorites />} />
         <Route path='/results' element={<Results />} />
         <Route path='/profile' element={<Profile />} />
+        <Route path='/card' element={<Card />} />
 
       </Routes>
     </BrowserRouter>
