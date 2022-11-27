@@ -1,11 +1,11 @@
 .form-item-container{
-  border: solid black 2px;
-  background-color: pink;
+  border: solid #6A8D73 2px;
+  background-color: whitesmoke;
   margin: 5px;
 }
 
 .quiz-form-main-container{
-  background-color: palevioletred;
+  background-color: white;
   padding: 5px 5px 5px 5px;
   text-align: left;
 }

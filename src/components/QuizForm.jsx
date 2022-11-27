@@ -37,9 +37,9 @@ export default function QuizForm() {
               <Form.Item name={question.value} rules={[{
                 required: true,
                 message: 'Please select an option'
+              
               }]}>
                 <Radio.Group onChange={onChange} placeholder={question.label} options={question.options}>
-               
                 </Radio.Group>
               </Form.Item>
             </div>
