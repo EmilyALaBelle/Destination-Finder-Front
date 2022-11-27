@@ -4,31 +4,29 @@ import { Button, Layout } from 'antd'
 
 export default function Navbar() {
   return (
-    <Layout>
+    <Layout className='navbar'>
    
-    <div className="homeButton">
+  
       <Link to={'./'}>
-        <Button type="button">Home</Button>
+        <Button type="button" shape='round'>Home</Button>
         </Link>
-      </div>
+      
 
-      <div className='quizButton'>
+   
       <Link to={'./quiz'}>
-        <Button type='button'>Quiz</Button>
+        <Button type='button' shape='round'>Quiz</Button>
       </Link>
-      </div>
+  
 
-      <div className='destinationButton'>
       <Link to={'./destinationList'}>
-        <Button type='button'>Destinations</Button>
+        <Button type='button' shape='round'>Destinations</Button>
       </Link>
-      </div>
+ 
 
-      <div className='profileButton'>
       <Link to={"./profile"}>
         <Button>Profile</Button>
       </Link>
-      </div>
+      
 
       </Layout>
   )

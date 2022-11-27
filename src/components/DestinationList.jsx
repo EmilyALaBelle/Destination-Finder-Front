@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react"
-import {Link} from 'react-router-dom'
+import './List.css'
 
 export default function Destinations() {
     const [destinations, setDestinations] = useState([])
@@ -15,22 +15,23 @@ export default function Destinations() {
 
     const AllDestinations = () => {
       return (
-        <div>
+        <div className="background">
           {destinations.map((item, index) => {
       return (
-        <Link state={item} to={'./card'} key={item._Id}>
-        <img src={`https://source.unsplash.com/random?sig=${index}`} alt=''/>
-        <h4>{destinations.Climate}</h4>
-        <h4>{destinations.Terrain}</h4>
-        <h4>{destinations.Budget}</h4>
-        </Link>
+        <div  className="destination-card" state={item} key={item._Id} >
+          <h1>{item.City}, {item.State}</h1>
+        <img className="image" src={` https://images.unsplash.com/photo-1610566187316-80fd0ba1521a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80`} alt=''/>
+        <h4 className="climate-box">The Climate is: {item.Climate}</h4>
+        <h4 className="terrain-box">The Terrain is: {item.Terrain}</h4>
+        <h4 className="budget-box">{item.Budget}</h4>
+        </div>
       )
     })} </div>
     )
     }
 return (
-  <div>
-    <h1>Destination List</h1>
+  <div className="head">
+    <h1 className="header">Destination List</h1>
     <AllDestinations />
   </div>
 )
