@@ -1,18 +1,18 @@
-import './Navbar.css'
+import '../assets/Navbar.css'
 import { Link } from "react-router-dom"
 import { Button, Layout } from 'antd'
+
 
 export default function Navbar() {
   return (
     <Layout className='navbar'>
    
-  
+  <div >
       <Link to={'./'}>
         <Button type="button" shape='round'>Home</Button>
         </Link>
       
 
-   
       <Link to={'./quiz'}>
         <Button type='button' shape='round'>Quiz</Button>
       </Link>
@@ -26,7 +26,7 @@ export default function Navbar() {
       <Link to={"./profile"}>
         <Button>Profile</Button>
       </Link>
-      
+      </div>
 
       </Layout>
   )

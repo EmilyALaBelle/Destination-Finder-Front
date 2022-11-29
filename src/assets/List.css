@@ -24,17 +24,14 @@ padding: 5px;
 .climate-box{
   margin: 3px;
   background-color: whitesmoke;
-/* border: solid 2px orange; */
 }
 .terrain-box{
   margin: 3px;
   background-color: whitesmoke;
-/* border: solid 2px palevioletred; */
 }
 .budget-box{
   margin: 3px;
   background-color: whitesmoke;
-  /* border: solid 2px violet; */
 }
 .header{
   text-align: center;

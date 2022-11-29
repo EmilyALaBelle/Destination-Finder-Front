@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom"
 import { Button } from "antd"
-import './Home.css'
+import '../assets/Home.css'
 
 export default function Home(){
   return (

@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react"
-import './List.css'
+import '../assets/List.css'
 
 export default function Destinations() {
     const [destinations, setDestinations] = useState([])
