@@ -17,7 +17,8 @@ export default function QuizForm() {
       },
       body: JSON.stringify(form)
     })
-    .then(() => navigate('/results'))
+    .then(res => res.json())
+    .then((results) => navigate('/results', {state:results}) )
     .catch(alert)
   }
 
@@ -25,13 +26,12 @@ export default function QuizForm() {
     console.log(e.target.name)
     console.log(e.target.value)
     setForm({ ...form, [e.target.name]: e.target.value })
-
-
   }
 
   //  console.log(form)
 
   return (
+
     <Form action="submit">
       <Layout.Content style={{ marginTop: 24 }}>
         <div className="quiz-form-main-container">
@@ -52,5 +52,6 @@ export default function QuizForm() {
         Submit Vote
       </Button>
     </Form>
+
   )
 }
