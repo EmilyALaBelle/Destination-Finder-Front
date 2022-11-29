@@ -1,37 +1,37 @@
 export default [
   {
     label: 'What is your destinations desired climate?',
-    value: 'desiredClimate',
+    value: 'Climate',
     options: [
-      {value:1, label: '1: Polar'},
-      {value:2, label: '2: Temperate'},
-      {value:3, label: '3: Arid'},
-      {value:4, label: '4: Tropical'},
-      {value:5, label: '5: Meditaranian'},
-      {value:6, label: '6: Alpine'},
+      {value:'Polar', label: '1: Polar'},
+      {value:'Temperate', label: '2: Temperate'},
+      {value:'Arid', label: '3: Arid'},
+      {value:'Tropical', label: '4: Tropical'},
+      {value:'Meditaranian', label: '5: Meditaranian'},
+      {value:'Alpine', label: '6: Alpine'},
     ]
   },
   {
     label: 'What is your destinations desired terrain?',
-    value: 'desiredTerrain',
+    value: 'Terrain',
     options: [
-      {value:1, label: '1: Canyons'},
-      {value:2, label: '2: Mountainous'},
-      {value:3, label: '3: Desert'},
-      {value:4, label: '4: Forest'},
-      {value:5, label: '5: Glacial'},
-      {value:6, label: '6: Beaches'},
-      {value:7, label: '7: Volcanic'},
-      {value:8, label: '8: Urban'},
+      {value:'Canyons', label: '1: Canyons'},
+      {value:'Mountainous', label: '2: Mountainous'},
+      {value:'Desert', label: '3: Desert'},
+      {value:'Forest', label: '4: Forest'},
+      {value:'Glacial', label: '5: Glacial'},
+      {value:'Beaches', label: '6: Beaches'},
+      {value:'Volcanic', label: '7: Volcanic'},
+      {value:'Urban', label: '8: Urban'},
     ]
   },
   {
     label: 'What is your budget for your vacation?',
-    value: 'desiredBudget',
+    value: 'Budget',
     options: [
-      {value:1, label: '1: $'},
-      {value:2, label: '2: $$'},
-      {value:3, label: '3: $$$'},
+      {value:'$', label: '1: $'},
+      {value:'$$', label: '2: $$'},
+      {value:'$$$', label: '3: $$$'},
     ]
   }
 ]
