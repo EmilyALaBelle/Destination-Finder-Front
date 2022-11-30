@@ -28,6 +28,22 @@ export default function Profile() {
     </Button>
     </Link>
     </div>
+    <br />
+    <div>
+    <Link to={"/login"}>
+    <Button type='button'>
+      Login
+    </Button>
+    </Link>
+    </div>
+    <br />
+    <div>
+    <Link to={"/signup"}>
+    <Button type='button'>
+      Signup
+    </Button>
+    </Link>
+    </div>
     </div>
   )
 }

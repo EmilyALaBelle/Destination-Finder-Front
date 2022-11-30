@@ -5,10 +5,9 @@ export default [
     options: [
       {value:'Polar', label: '1: Polar'},
       {value:'Temperate', label: '2: Temperate'},
-      {value:'Arid', label: '3: Arid'},
+      {value:'Continental', label: '3: Continental'},
       {value:'Tropical', label: '4: Tropical'},
-      {value:'Meditaranian', label: '5: Meditaranian'},
-      {value:'Alpine', label: '6: Alpine'},
+      {value:'Dry', label: '5: Dry'},
     ]
   },
   {

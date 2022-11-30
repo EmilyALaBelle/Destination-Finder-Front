@@ -12,15 +12,14 @@ export default function Results() {
 
 
             <h1 className="result-box">
-              <img className="image" src={destination.Image} alt="" />
-              <div className="city-state-box"> 
+            
+            <div className="city-state-box"> 
                 {destination.City},
                 {destination.State}
               </div>
-              
-              <div className="country-box">
-                {destination.Country}
-                </div>
+
+              <img className="image" src={destination.Image} alt="" />
+
               
               <div className="climate-box">
                 Climate: {destination.Climate}
