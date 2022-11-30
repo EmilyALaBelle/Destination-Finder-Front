@@ -5,8 +5,8 @@ export default function Destinations() {
     const [destinations, setDestinations] = useState([])
     
     useEffect(() => {
-   // fetch(`https://practice-final-2-el.web.app/destinations`)
-      fetch(`http://127.0.0.1:5002/destinations`)
+   fetch(`https://practice-final-2-el.web.app/destinations`)
+   //   fetch(`http://127.0.0.1:5002/destinations`)
       .then(res => res.json())
       .then(data => setDestinations(data))
       .catch(err => console.error(err))

@@ -10,8 +10,8 @@ export default function QuizForm() {
 
   const handleQuizSubmit = () => {
     console.log("form", form)
-   // fetch(`https://practice-final-2-el.web.app/destination`, {
-       fetch(`http://127.0.0.1:5002/destination`, {
+    fetch(`https://practice-final-2-el.web.app/destination`, {
+     //  fetch(`http://127.0.0.1:5002/destination`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

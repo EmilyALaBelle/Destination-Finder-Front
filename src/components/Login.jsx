@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import {Button, Input, Form} from 'antd'
+// import { Button, Input, Form } from 'antd'
 
 export default function Login() {
   const [form, setForm] = useState({})
@@ -10,8 +10,9 @@ export default function Login() {
     // stop the page from refreshing
     e.preventDefault()
 
-    // send data/body to API
-    fetch('http://127.0.0.1:5002/login', {
+    console.log("submit")
+    fetch(`https://practice-final-2-el.web.app/login`, {
+    //fetch('http://127.0.0.1:5002/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -28,18 +29,18 @@ export default function Login() {
 
   return (
     <>
-      <Form action='submit' onSubmit={handleFormSubmit} method='post'>
+      <form action='submit' onSubmit={handleFormSubmit} method='post'>
         <h2>Log in</h2>
         <label htmlFor=''>Email: </label>
-        <Input type='email' onChange={e => setForm({ ...form, email: e.target.value })} />
+        <input type='email' onChange={e => setForm({ ...form, email: e.target.value })} />
         <br />
         <label htmlFor=''>Password: </label>
-        <Input type='password' onChange={e => setForm({ ...form, password: e.target.value })} />
-        <Button type='submit'>Login</Button>
-      </Form>
+        <input type='password' onChange={e => setForm({ ...form, password: e.target.value })} />
+        <button type='submit'>Login</button>
+      </form>
       <br /><br />
-      Don't have an account? 
-      <Button onClick={() => navigate('/signup')}>Sign up</Button>
+      Don't have an account?
+      <button onClick={() => navigate('/signup')}>Sign up</button>
     </>
   )
 }

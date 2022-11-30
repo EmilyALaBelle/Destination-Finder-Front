@@ -1,42 +1,3 @@
-// import { useState} from 'react'
-// import { useNavigate } from 'react-router-dom'
-// import { Form, Input, Button } from 'antd'
-
-// export default function Signup() {
-//   const [form, setForm] = useState({})
-//   const navigate = useNavigate()
-
-//   const handleFormSubmit = e => {
-//     e.preventDefault()
-
-//     fetch('http://127.0.0.1:5002/signup', {
-//       method: 'POST',
-//       headers: {
-//         'Content-Type': 'application/json',
-//       },
-//       body: JSON.stringify(form)
-//   })
-// }
-
-// return (
-//   <>
-//   <Form action='submit' onSubmit={handleFormSubmit} method='post'>
-// <h1>Signup</h1>
-// <label htmlFor="">Email</label>
-// <Input type='email' onChange={e => setForm({ ...form, email: e.target.value})}/>
-// <br />
-// <label htmlFor="">Password</label>
-// <Input type='password' onChange={e => setForm({ ...form, password: e.target.value})}/>
-// <Button type='submit'>Signup</Button>
-//   </Form>
-// <br /><br />
-// already have an account?
-// <Button onClick={() => navigate('/')}>Login</Button>
-//   </>
-// )
-
-// }
-
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
@@ -49,7 +10,8 @@ export default function Signup() {
     e.preventDefault()
 
     // send data/body to API
-    fetch('http://127.0.0.1:5002/signup', {
+    fetch(`https://practice-final-2-el.web.app/signup`, {
+   // fetch('http://127.0.0.1:5002/signup', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
