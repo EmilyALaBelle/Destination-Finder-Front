@@ -10,7 +10,8 @@ export default function QuizForm() {
 
   const handleQuizSubmit = () => {
     console.log("form", form)
-    fetch(`http://127.0.0.1:5002/destination`, {
+   // fetch(`https://practice-final-2-el.web.app/destination`, {
+       fetch(`http://127.0.0.1:5002/destination`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -28,8 +29,6 @@ export default function QuizForm() {
     setForm({ ...form, [e.target.name]: e.target.value })
   }
 
-  //  console.log(form)
-
   return (
 
     <Form action="submit">
@@ -37,7 +36,7 @@ export default function QuizForm() {
         <div className="quiz-form-main-container">
           {questions.map(question => (
             <div key={question.value} className="form-item-container">
-              <Radio.Group name={question.value} placeholder={question.label} options={question.options} onChange={handleForm} form={form}>
+              <Radio.Group name={question.value} options={question.options} onChange={handleForm} form={form}>
                 {question.options.map(option => {
                   return (
                     <Radio value={option.value}>{option.label}</Radio>
@@ -49,7 +48,7 @@ export default function QuizForm() {
         </div>
       </Layout.Content>
       <Button type="primary" htmlType="submit" onClick={handleQuizSubmit} >
-        Submit Vote
+        Submit Quiz
       </Button>
     </Form>
 
