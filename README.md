@@ -8,13 +8,13 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
+<!--     <li> -->
+<!--       <a href="#getting-started">Getting Started</a> -->
+<!--       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
+      </ul> -->
+<!--     </li> -->
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -47,11 +47,11 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+<!-- ## Getting Started -->
 
 
 
-### Prerequisites
+<!-- ### Prerequisites
 
 
 * npm
@@ -78,7 +78,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
    ```
 <!-- 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
-
 
 
 <!-- CONTACT -->
