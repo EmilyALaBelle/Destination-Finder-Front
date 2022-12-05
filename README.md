@@ -26,9 +26,6 @@
 ## About The Project
 
 
-
-Use the `BLANK_README.md` to get started.
-
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
@@ -97,8 +94,6 @@ Project Link: [Destination-Finder](http://destination-quiz.s3-website-us-east-1.
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
 * [React Icons](https://react-icons.github.io/react-icons/search)
 * [DEV.Badges](https://dev.to/envoy_/150-badges-for-github-pnk#database)
