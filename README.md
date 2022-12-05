@@ -88,7 +88,8 @@ This section should list any major frameworks/libraries used to bootstrap your p
 ## Contact
 
 Emily LaBelle - [Linkdin](https://www.linkedin.com/in/emilylabelledev/) - emilylabelle8@gmail.com
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+
+Project Link: [Destination-Finder](http://destination-quiz.s3-website-us-east-1.amazonaws.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,14 +100,11 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
+* [DEV.Badges](https://dev.to/envoy_/150-badges-for-github-pnk#database)
+* [Ant.Design](https://ant.design/)
+* [ReadMe Template](https://github.com/othneildrew/Best-README-Template/blob/master/README.md#built-with)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
