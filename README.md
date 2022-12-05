@@ -29,7 +29,7 @@
 
 Use the `BLANK_README.md` to get started.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 
@@ -45,7 +45,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [![AWS][aws]][aws-url]
 * [![Javascript][javascript]][javascript-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 
@@ -79,8 +79,8 @@ This section should list any major frameworks/libraries used to bootstrap your p
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- 
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 
@@ -91,7 +91,7 @@ Emily LaBelle - [Linkdin](https://www.linkedin.com/in/emilylabelledev/) - emilyl
 
 Project Link: [Destination-Finder](http://destination-quiz.s3-website-us-east-1.amazonaws.com/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 
@@ -106,7 +106,7 @@ Use this space to list resources you find helpful and would like to give credit 
 * [ReadMe Template](https://github.com/othneildrew/Best-README-Template/blob/master/README.md#built-with)
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 
